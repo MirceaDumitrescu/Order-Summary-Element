@@ -15,8 +15,12 @@ body {
 }
 
 .footer {
+  position: absolute;
   font-size: 11px;
   text-align: center;
+  left: 50%;
+  top: 99%;
+  transform: translate(-50%, -50%);
 }
 .footer a {
   color: hsl(228, 45%, 44%);
